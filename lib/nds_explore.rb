@@ -9,7 +9,7 @@ end
 
 def print_first_directors_movie_titles
 pp directors_database
-
+ directors_database.each
  
 
 end
