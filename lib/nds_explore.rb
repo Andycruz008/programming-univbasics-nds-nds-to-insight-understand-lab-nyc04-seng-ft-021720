@@ -9,7 +9,7 @@ end
 
 def print_first_directors_movie_titles
 pp directors_database
- directors_database.each do |title,value|
+ directors[0].each do |titles,value|
    print value
  
 end
